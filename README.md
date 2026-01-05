@@ -13,12 +13,6 @@ Kullanılan teknolojiler
 - Bootstrap 5 (frontend)
 - Vanilla JavaScript (fetch polling)
 
-Hızlı başlatma (XAMPP)
-1) Proje klasörünü `C:\xampp\htdocs\proje` içine kopyalayın.
-2) Apache ve MySQL servislerini XAMPP Kontrol Paneli'nden başlatın.
-3) Veritabanını import edin (`init.sql`) veya `create_db.php` çalıştırın.
-4) Tarayıcıda: `http://localhost/proje/`
-
 Demo kullanıcılar (hızlı test için)
 - Operatör: `Akkaya` / `4578` (role: operator)
 - Kasa: `Hilmi` / `1111` (role: kitchen — kasa için kullanın)
@@ -29,3 +23,4 @@ Hızlı test
 
 Notlar
 - Eğer örnek kullanıcıları eklemek isterseniz phpMyAdmin veya bir SQL sorgusuyla `users` tablosuna ekleyin 
+
