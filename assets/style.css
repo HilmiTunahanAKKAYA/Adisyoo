@@ -1,0 +1,43 @@
+body {
+  background: #f8f9fa;
+}
+.card { box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+
+/* login-specific fallbacks (keeps login look tidy) */
+.login-wrapper { background: linear-gradient(135deg,#072227 0%,#0b3940 100%); }
+
+:root {
+  --brand-primary: #0b3940; /* deep teal from previous styles */
+  --brand-accent: #2f8f57; /* added green accent */
+  --brand-contrast: #ffffff;
+  --brand-muted: #f1f6f5;
+}
+
+/* Site header / navbar */
+.site-header {
+  background: linear-gradient(90deg, var(--brand-primary), var(--brand-accent));
+  color: var(--brand-contrast);
+  padding: 10px 16px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  border-radius:6px;
+}
+.site-header img.logo {
+  height:44px;
+  width:auto;
+  border-radius:6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.site-title { font-weight:700; font-size:1.25rem; }
+
+/* Primary buttons default */
+.btn-primary {
+  background: var(--brand-accent) !important;
+  border-color: var(--brand-accent) !important;
+}
+
+/* Small card header accent */
+.card .card-body h5 { color: var(--brand-primary); }
+
+
